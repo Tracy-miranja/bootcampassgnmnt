@@ -1,0 +1,241 @@
+body{
+    overflow: hidden;
+}
+#nv a{
+    text-decoration:none;
+    color:black;
+}
+#nv a:hover{
+    color: #ff5e00;
+}
+header{
+    width:100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 8px red;
+    align-items: center;
+}
+header .container-fluid{
+    justify-content:space-between;
+    width:100%;
+    display:flex;
+    padding: 0 60px;
+    align-items: center;
+}
+header .nav-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    letter-spacing: 1px;
+}
+header .item{
+    text-align: center;
+    margin-inline: 10%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 0;
+    font-family: sans-serif;
+    transition: all .1s ease-in-out;
+    border-bottom:0px solid #ff5e00;
+    border-top:0px solid #ff5e00;
+    cursor: pointer;
+}
+header .item:hover{
+    border-bottom:1px solid hsl(185, 95%, 53%);
+    border-top:1px solid hwb(169 8% 0%);
+}
+.modal-dialogue{
+    margin:0px;
+    width: 430px;
+}
+@media(max-width: 450px){
+    .modal-dialogue{
+        width: 82px;
+    }
+
+}
+.modal-content{
+    border-radius: 0px;
+    height: 100vh;
+    overflow-y: scroll;
+    background: hwb(240 1% 80%);
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #f21a1a;
+}
+.modal-header img{
+    width:140px;
+    height: 60px;
+    margin-top: 10px;
+}
+.modal-header .btn-close{
+    background: transparent;
+    opacity: 1;
+}
+.modal-header i{
+    font-size: 24px;
+    color: black;
+}
+.modal-body{
+    width: 88%;
+    margin: auto;
+    padding: 75px 0 0 0;
+    flex:unset;
+}
+.modal-body .modal-line{
+    width: 100%;
+    align-items: center;
+    display: block;
+    justify-content: flex-start;
+    padding: 7px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: #0a0000;
+    border-bottom: 1px solid;
+}
+#logo{
+    width:100%; 
+    height:100%;
+    float:left;
+}
+#ex{
+    background-attachment: fixed;
+    background-color:black;
+    height: 60px;
+    
+}
+
+#co1{
+    background-color: orange;
+    height:auto;
+    margin-left: 10px;
+    
+    
+}
+#co2{
+    background-color:red;
+    margin-left:40px;
+    height:200px;
+}
+#co3{
+    background-color:blue;
+    height:200px;
+    margin-left:15px;
+}
+#co4{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#co5{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#co6{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#imgg{
+    width: 20%;
+    height: 20px; 
+    float: left;
+    align-items: center;
+    margin-right: 40px;
+}
+   input[type=text] {
+    float: right;
+    padding: 10px;
+    border: 5px;
+    margin-top: 10px;
+    margin-right: 476px;
+    font-size: 17px;
+    align-items: center;
+    border-radius: 50px 1px solid #f32222;
+    width: 300px;
+    height: 20%;
+  }
+  #bar2{
+    margin-top: 10px;
+    
+  }
+  #co7{
+    background-color: orange;
+    height:auto;
+    margin-left: 10px;
+    
+    
+}
+#co8{
+    background-color:red;
+    margin-left:37px;
+    height:200px;
+}
+#co9{
+    background-color:blue;
+    height:200px;
+    margin-left:15px;
+}
+#co10{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#co11{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#co12{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#bar3{
+    margin-top: 10px;
+    
+  }
+  #co13{
+    background-color: orange;
+    height:auto;
+    margin-left: 10px;
+    
+    
+}
+#co14{
+    background-color:red;
+    margin-left:37px;
+    height:200px;
+}
+#co15{
+    background-color:blue;
+    height:200px;
+    margin-left:15px;
+}
+#co16{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#co17{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#co18{
+    background-color:goldenrod;
+    height:200px;
+    margin-left:15px;
+}
+#ex{
+    height: 30px;
+    width: 100%;
+}
